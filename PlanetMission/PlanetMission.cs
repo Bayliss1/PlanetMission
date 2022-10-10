@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PlanetMission
 {
-    class PlanetMission
+    abstract class PlanetMission
     {
         protected float fuelPerKm;
         protected long kmPerHour;
