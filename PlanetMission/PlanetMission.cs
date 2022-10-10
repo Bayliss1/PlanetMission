@@ -19,4 +19,24 @@ namespace PlanetMission
             return $"We'll burn {fuel} units of fuel in {time} hours";
         }
     }
+
+     class Mars : PlanetMission
+    {
+        public Mars()
+        {
+            kmToPlanet = 92000000;
+            fuelPerKm = 1.73f;
+            kmPerHour = 37000;
+        }
+    }
+
+    class Venus : PlanetMission
+    {
+        public Venus()
+        {
+            kmToPlanet = 41000000;
+            fuelPerKm = 2.11f;
+            kmPerHour = 29500;
+        }
+    }
 }

@@ -6,7 +6,9 @@ namespace PlanetMission
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(new Venus().MissionInfo());
+            Console.WriteLine(new Mars().MissionInfo());
+            Console.WriteLine(new PlanetMission().MissionInfo());
         }
     }
 }
